@@ -1,0 +1,6 @@
+.styleOswald{
+	font-family: 'Oswald', sans-serif;
+}
+.styleOswald.MenuLand:hover .hoverMenu{
+	display: block;
+}

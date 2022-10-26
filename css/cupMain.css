@@ -1,0 +1,50 @@
+.cup{
+	width: 100%;
+	height:1068px;
+	background-image: url("../image/backgR.png");
+	position: absolute;
+	top: 96px;
+}
+.info_cup{
+	position: absolute;
+	left: 1184px;
+	top: 300px;
+}
+.info_cup > h1,
+.info_cup > h2 {
+	 color: white;
+}
+.info_cup > h1 {
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 64px;
+	line-height: 95px;
+}
+.info_cup > h2 {
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 53px;
+	width: 383px;
+	height: 117px;
+	margin: 29px 0;
+}
+.info_cup > button {
+	background: #2B2B2B;
+	border-radius: 30px;
+	width: 155px;
+	height: 51px;
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	cursor: pointer;
+	color: #FFFFFF;
+	transition: 0.4s;
+}
+.info_cup>button:hover{
+	background: #484848 ;
+}

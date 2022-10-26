@@ -1,0 +1,54 @@
+.block2{
+	position: absolute;
+	left: 0px;
+	top: 1200px;
+	width: 1302px;
+	height: 1980px;
+	background-image: url("../image/back2.png") ;
+}	
+.block2Text{
+	position: absolute;
+width: 396px;
+height: 595px;
+left: 1214px;
+top: 526px;
+}
+.block2Text>h1{
+	font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 95px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.block2Text>h2{
+	font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 59px;
+
+color: #000000;
+position: absolute;
+top: 120px;
+width: 480px;
+height: 493px;
+}
+.block2Text>h3{
+width: 428px;
+height: 204px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 59px;
+
+color: #000000;
+top: 500px;
+position: absolute;
+
+}
