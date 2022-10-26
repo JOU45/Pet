@@ -1,9 +1,9 @@
-.styleOswald{
-	font-family: 'Oswald', sans-serif;
+.styleOswald {
+  font-family: "Oswald", sans-serif;
 }
-.styleOswald.MenuLand:hover .hoverMenu{
-	display: block;
+.styleOswald.MenuLand:hover .hoverMenu {
+  display: block;
 }
-html{
-	min-width: 1300px;
+html {
+  min-width: 1300px;
 }

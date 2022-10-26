@@ -1,60 +1,58 @@
-.block2{
-	position: absolute;
-	left: 0px;
-	top: 1200px;
-	width: 100%;
-	height: 1480px;
-	left: 0%;
-}	
+.block2 {
+  position: absolute;
+  left: 0px;
+  top: 1200px;
+  width: 100%;
+  height: 1480px;
+  left: 0%;
+}
 .block2 > img {
-	transform: scaleX(-1);
-	position: absolute;
-	width: 50%;
-	left: 50%;
+  transform: scaleX(-1);
+  position: absolute;
+  width: 50%;
+  left: 50%;
 }
-.block2Text{
-	position: absolute;
-width: 396px;
-height: 595px;
-left: 20%;
-top: 30%;
+.block2Text {
+  position: absolute;
+  width: 396px;
+  height: 595px;
+  left: 20%;
+  top: 30%;
 }
-.block2Text>h1{
-	font-family: 'Oswald';
-font-style: normal;
-font-weight: 400;
-font-size: 64px;
-line-height: 95px;
-/* identical to box height */
+.block2Text > h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 95px;
+  /* identical to box height */
 
-
-color: #000000;
+  color: #000000;
 }
-.block2Text>h2{
-	font-family: 'Oswald';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 59px;
+.block2Text > h2 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 59px;
 
-color: #000000;
-position: absolute;
-top: 120px;
-width: 480px;
-height: 493px;
+  color: #000000;
+  position: absolute;
+  top: 120px;
+  width: 480px;
+  height: 493px;
 }
-.block2Text>h3{
-width: 428px;
-height: 204px;
+.block2Text > h3 {
+  width: 428px;
+  height: 204px;
 
-font-family: 'Oswald';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 59px;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 59px;
 
-color: #000000;
-top: 500px;
-position: absolute;
-
+  color: #000000;
+  top: 500px;
+  position: absolute;
 }
