@@ -5,7 +5,7 @@
 	z-index: 1;
 	position: fixed;
 	left: 0;
-	width: 100%;
+	width: 100vw;
 	height: 100px;
 	background: black;
 	margin: 0;
@@ -29,9 +29,9 @@
 }
 .header > nav > ul{
 	position: absolute;
-	width: 548px;
+	width: 20%;
 	height: 36px;
-	left: 1380px;
+	left: 75%;
 	top: 30px;
 	color: white;
 	font-family: 'Oswald';
@@ -52,7 +52,7 @@
 
 width: 82px;
 height: 36px;
-margin: 80px;
+margin: 10%;
 
 font-family: 'Oswald';
 font-style: normal;
@@ -70,7 +70,7 @@ color: white;
 	position: absolute;
 width: 578px;
 height: 125px;
-left: 701px;
+left: 36%;
 top: 0px;
 z-index: 2;
 background: #FCAC45;

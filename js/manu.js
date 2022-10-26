@@ -4,6 +4,6 @@ function toggleMenu() {
     menuBox.style.display = "none";
   }
   else { // if is menuBox hidden, display it
-    menuBox.style.display = "block";
+     menuBox.style.display = "block";
   }	
 }

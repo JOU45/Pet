@@ -4,3 +4,6 @@
 .styleOswald.MenuLand:hover .hoverMenu{
 	display: block;
 }
+html{
+	min-width: 1300px;
+}
