@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./css/footer.css" />
+    <link rel="website icon" type="png" href="./image/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/header.css" />
+
+    <title>World Of Pet</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="TextLogo styleOswald">
+        <a href="./index.html">WORLD OF PETS</a>
+      </h1>
+      <nav>
+        <ul>
+          <li class="styleOswald"><a href="#">Information</a></li>
+          <li class="styleOswald MenuLand" id="headerMenu">Menu</li>
+        </ul>
+
+        <!-- menu underBlock -->
+        <div id="menu-box" style="display: none" class="centerMenu">
+          <div class="menu_up a1">
+            <h1>Вибір тварини</h1>
+
+            <div class="menuPetSub">
+             <div class="elementPet a1"><a href="./dog.html" style="text-decoration:none; color: black;">Собаки</a></div>
+              <div class="elementPet a2"><a href="./cat.html" style="text-decoration:none; color: black;">Кiшки</a></div>
+              <div class="elementPet a3"><a href="./homa.html" style="text-decoration:none; color: black;">Гризуни</a></div>
+              <div class="elementPet a4"><a href="./bird.html" style="text-decoration:none; color: black;">Bird</a></div>
+              <div class="elementPet a5">Iнше</div>
+            </div>
+          </div>
+          <div class="menu_up a2">
+            <h1><a href="#">Про сайт</a></h1>
+          </div>
+          <div class="menu_up a3">
+            <h1>Номери телефонів</h1>
+
+            <div class="menuPhoneSub">
+              <div class="elementPhone a1">
+                <a
+                  href="tel:+38(098) 017 81 79"
+                  style="text-decoration: none; color: black"
+                  >+38(098) 017 81 79</a
+                >
+              </div>
+              <div class="elementPhone a2">
+                <a
+                  href="tel:+38(098) 368 34 99"
+                  style="text-decoration: none; color: black"
+                  >+38(098) 368 34 99</a
+                >
+              </div>
+            </div>
+          </div>
+          <div><img class="cross" src="./image/cross.png" /></div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+          $(document).ready(function () {
+            $(".cross").click(function () {
+              $("#menu-box").slideUp();
+            });
+            $(".MenuLand").click(function () {
+              $("#menu-box").slideDown();
+            });
+          });
+        </script>
+      </nav>
+    </div>
+
+    <footer>
+      <h1>WORLD OF PET</h1>
+      <div class="contact">
+        <h1>Гаряча лiнiя</h1>
+        <a href="tel:+38(098) 017 81 79">+38(098) 017 81 79</a>
+        <a href="tel:+38(098) 368 34 99">+38(098) 368 34 99</a>
+      </div>
+
+      <div class="comment">
+        <h1>Залиште свiй вiдгук</h1>
+        <textarea></textarea>
+        <button>Надiслати</button>
+      </div>
+    </footer>
+  </body>
+</html>
