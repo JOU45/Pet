@@ -1,0 +1,46 @@
+.diznaBi {
+  position: absolute;
+  top: 2862px;
+  width: 100%;
+  height: 300px;
+}
+.dogFone {
+  width: 100%;
+}
+.diznaBi > h1 {
+  position: absolute;
+  width: 484px;
+  height: 146px;
+  left: 60%;
+  top: 100px;
+
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 71px;
+
+  color: #ffffff;
+}
+.diznaBi > button {
+  text-align: center;
+  position: absolute;
+  width: 140px;
+  height: 58px;
+  left: 69%;
+  top: 220px;
+  border: none;
+  background: #fcac45;
+  border-radius: 25px;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 53px;
+  transition: 0.2s;
+
+  color: #000000;
+}
+.diznaBi > button:hover {
+  background: #ff9002;
+}
