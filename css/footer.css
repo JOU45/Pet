@@ -79,6 +79,7 @@ footer > h1 {
   color: #ffffff;
 }
 .comment > textarea {
+  border: none;
   cursor: pointer;
   position: absolute;
   width: 90%;

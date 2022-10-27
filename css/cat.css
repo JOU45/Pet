@@ -1,0 +1,146 @@
+.block1Cat{
+	position: absolute;
+width: 100%;
+left: 0px;
+top: 90px;
+
+}
+.block2Cat{
+	position: absolute;
+width: 100%;
+height: 894px;
+left: 0px;
+top: 828px;
+
+background: #000000;
+}
+.block2Cat>img{
+	position: absolute;
+	left: 60%;
+	top: 25%;
+}
+.block2CatInfo{
+	position: absolute;
+width: 622px;
+height: 361px;
+left: 10%;
+top: 20%;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 171px;
+
+color: #FFFFFF;
+
+}
+.block3Cat{
+	position: absolute;
+width: 100%;
+height: 893px;
+left: 0px;
+top: 1722px;
+
+background: #2D2D2D;
+}
+.block3Cat>img{
+	position: absolute;
+	top: 15%;
+	left: 10%;
+}
+.block3CatInfo{
+	text-align: center;
+	position: absolute;
+width: 700px;
+height: 231px;
+left: 55%;
+top: 15%;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 95px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.block3CatInfo>h2{
+	width: 700px;
+	margin-top: 80px ;
+	font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 59px;
+text-align: center;
+}
+.block4Cat{
+	position: absolute;
+width: 100%;
+height: 924px;
+left: 0px;
+top: 2615px;
+
+background: #000000;
+}
+.block4Cat>img{
+	position: absolute;
+	top: 25%;
+	left: 60%;
+}
+.block4CatInfo{
+	position: absolute;
+	left: 10%;
+	top: 20%;
+	color: white;
+}
+.block4CatInfo>h1{
+	position: absolute;
+width: 774px;
+height: 154px;
+left: 5%;
+top: 100px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 44px;
+line-height: 95px;
+
+color: #FFFFFF;
+}
+.block4CatInfo > h2{
+	width: 800px;
+	position: absolute;
+	left: 0%;
+	top: 200px;
+	height: 300px;
+	overflow-y: scroll;
+	font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 51px;
+ scrollbar-color: #458245 #714826;
+}
+.block4CatInfo > h2::-webkit-scrollbar {
+width: 10px;
+height: 100%;
+
+}
+.block4CatInfo > h2::-webkit-scrollbar-thumb{
+	background-color: #fcac45;
+	border-radius: 20px;
+}
+.block5Cat{
+	position: absolute;
+width: 100%;
+height: 1097px;
+left: 0px;
+top: 3539px;
+}
+.block5Cat > img{
+	width: 100%;
+}
