@@ -1,3 +1,16 @@
+html::-webkit-scrollbar {
+width: 10px;
+background: black;
+height: 100%;
+position: absolute;
+left: 100%;
+}
+html::-webkit-scrollbar-thumb {
+background: #fcac45;
+border-radius: 20px;
+}
+
+
 footer {
   position: absolute;
   width: 100%;
